@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_fb"
+            android:text="FB设备"
+            android:checked="true"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_fc"
+            android:text="FC设备" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_fd"
+            android:text="FD设备"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_86"
+            android:text="16886端口"
+            android:checked="true"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_87"
+            android:text="16887端口" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_88"
+            android:text="16888端口"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg2"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_ip1"
+            android:text="10.0.1.254"
+            android:checked="true"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_ip2"
+            android:text="222.222.120.169" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_ip3"
+            android:text="其他"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg3"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_720"
+            android:text="分辨率344x720"
+            android:checked="true"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_1080"
+            android:text="分辨率520x1080" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start" />
+
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop" />
+</LinearLayout>
